@@ -9,7 +9,7 @@
         >
       <slide :data="getStoryData(trending)"
       :active="slideNdx === ndx"
-      :loadign="slideNdx === ndx && loading"
+      :loading="slideNdx === ndx && loading"
       :btnsShown="activeBtns"
       @onNextSlide="handleSlider(ndx + 1)"
       @onPrevSlide="handleSlider(ndx - 1)"
