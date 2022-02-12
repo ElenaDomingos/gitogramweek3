@@ -36,6 +36,12 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
+
+  & svg {
+    width: 40px !important;
+    color: green;
+  }
 }
 
 .content {
